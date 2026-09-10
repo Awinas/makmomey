@@ -1,0 +1,10 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Mak Momey AI</title><link rel="stylesheet" href="style.css"></head>
+<body><div class="app">
+<header><div class="avatar">👩🏻</div><div class="head"><b>Mak Momey AI</b><small>● Local Demo</small></div><button id="settings">⚙️</button></header>
+<main id="chat"></main>
+<footer><button id="mic">🎙️ Hold to talk</button><div class="row"><textarea id="input" placeholder="Type something..."></textarea><button id="send">➤</button></div>
+<div class="quick"><button data-q="Mak, dah makan ka?">🍚 Dah makan?</button><button data-q="Mak, aku dah balik.">🏠 Dah balik</button><button data-q="Mak, hari ni penat la.">❤️ Penat</button></div></footer></div>
+<dialog id="dlg"><h2>Settings</h2><label>Backend URL<input id="url"></label><label><input type="checkbox" id="speak"> Speak replies</label><button id="save">Save</button><button id="close">Close</button><hr><h3>Memory</h3><div id="mem"></div><input id="memtxt" placeholder="Add a memory"><button id="add">Add</button></dialog>
+<script src="app.js"></script></body></html>

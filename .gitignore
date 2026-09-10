@@ -1,0 +1,6 @@
+.env
+backend/.venv/
+backend/memory.json
+*.opus
+*.wav
+__pycache__/

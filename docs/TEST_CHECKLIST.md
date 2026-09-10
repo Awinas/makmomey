@@ -1,0 +1,11 @@
+# Test Checklist
+- [ ] Python environment works
+- [ ] `/health` returns ok
+- [ ] Browser UI loads
+- [ ] Text chat works
+- [ ] Microphone works in Chrome/Edge
+- [ ] Browser speech output works
+- [ ] Memory add/delete works
+- [ ] No secrets are in frontend files
+- [ ] Private recordings are not committed to GitHub
+- [ ] App is clearly labelled as an AI reconstruction
